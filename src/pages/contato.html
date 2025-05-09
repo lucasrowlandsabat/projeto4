@@ -25,19 +25,22 @@
                 <form class="form" id="form">
                     <article class="control">
                         <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome">
+                        <input type="text" name="nome" id="nome" required>
+                        <i class="error"><img src="../assets/erro.svg"></i>
                         <small>Erro</small>
                     </article>
     
                     <article class="control">
                         <label for="email">Email</label>
                         <input type="text" name="email" id="email">
+                        <i class="error"><img src="../assets/erro.svg"></i>
                         <small>Erro</small>
                     </article>
     
                     <article class="control">
                         <label for="descricao">Descrição</label>
                         <textarea type="text" name="nome" id="nome"></textarea>
+                        <i class="error"><img src="../assets/erro.svg"></i>
                         <small>Erro</small>
                     </article>
     
@@ -48,6 +51,7 @@
             </div>
 
         </main>
-    
+
+    <script src="../js/contato.js"></script>
 </body>
 </html>
