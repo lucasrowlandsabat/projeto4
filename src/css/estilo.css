@@ -226,18 +226,18 @@ header #logo{
 }
 
 /*LOCALIZA*/
+
 #mapid{
     width: 1000px;
     height: 600px;
     border-radius: 50%;
-    margin-left: 200px;
+    margin-left:200px;
 }
 #localizacao{
     margin-top: 10px;
-    font-weight: 600;
+    font-weight:600;
+   
 }
-
-
 
 
 footer{
